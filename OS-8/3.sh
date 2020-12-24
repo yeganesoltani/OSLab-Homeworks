@@ -3,9 +3,9 @@ or
 last reboot
 or
 who -b
-or install uptime
+or
 uptime --since
-or install procinfo
+or 
 procinfo | grep Bootup
-or install tuptime
+or 
 tuptime -e
