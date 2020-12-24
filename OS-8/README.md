@@ -8,6 +8,7 @@ To change the default password cache timeout, enter the following:
 git config --global credential.helper 'cache --timeout=3600'
 
 2- list long format with readable file size
+
 3- To see only the last time : last reboot -F | head -1 | awk '{print $5,$6,$7,$8,$9}'
 more generically : last reboot
 who -b, which produces output such as:  $ who -b
@@ -17,6 +18,15 @@ $ tuptime -e
 Startup:  1  at  08:03:58 10/08/15
 Uptime:   6 hours, 56 minutes and 7 seconds
 Shutdown: OK  at  15:00:05 10/08/15
+
+4- To display a list of all network interfaces and the associated IP address type the following command:
+
+ip addr
+
+You can also use the following commands to display the private IP address:
+
+hostname -I
+ifconfig
 
 Downtime: 17 hours, 8 minutes and 14 seconds
 
