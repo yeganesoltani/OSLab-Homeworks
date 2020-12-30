@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{graphicx}
+\begin{document}
+\title{OS-9}
+\maketitle
+\author{YeganeSoltani }
+\section{Jaun Paul Sartre}
+No finite point has meaning without an infinite reference point.
+\begin{table}[]
+    \begin{center}
+    \begin{tabular}{|c|c|c|c|}
+         \hline
+   \ 1) & Jaun Paul Sartre & philsopher & playwright &
+    \hline
+     2) & Charles Chaplin & English comic actor & filmmaker &
+     \hline
+    \end{tabular}
+    \caption{Famous Persons}
+    \label{tab:my_label}
+     \end{center}
+\end{table}
+\begin{lstlisting}
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+  int n, i, m=0, flag=0;  
+  cout << "Enter the Number to check Prime: ";  
+  cin >> n;  
+  m=n/2;  
+  for(i = 2; i <= m; i++)  
+  {  
+      if(n % i == 0)  
+      {  
+          cout<<"Number is not Prime."<<endl;  
+          flag=1;  
+          break;  
+      }  
+  }  
+  if (flag==0)  
+      cout << "Number is Prime."<<endl;  
+  return 0;  
+}  
+
+\end{lstlisting}
+\begin{figure}
+\includegraphics[width=11cm]{sartre.jpg}
+\end{figure}
+\section{Formula}
+$$\ a2 + b2 = c2
+\end{document}
