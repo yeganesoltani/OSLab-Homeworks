@@ -3,4 +3,4 @@ operation & A & B are the variables
 
 echo for print
 
-first you choose your item after enter your numbers at last you see the result
+first you choose your item after enter your numbers at last you will see the result
