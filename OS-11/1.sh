@@ -20,4 +20,6 @@ echo $(($A*$B))
 elif [ $operation = "/"]
 then
 echo $(($A/$B))
+else
+echo "Invalid operation"
 fi
